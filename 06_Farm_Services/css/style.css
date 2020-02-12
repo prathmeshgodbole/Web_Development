@@ -1,0 +1,209 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    }
+    
+    
+    .bgimg{
+        background-image: url("../Images/farm_wall_02.jpeg");
+        background-size: cover;
+        width:100%;
+        height: 100vh;
+    }
+    
+    .menu{
+       
+        width: 100%;
+        height: 100px;
+        background-color: rgba(0, 0,0, 0.5);
+    }
+    
+    .Left_Menu{
+        
+        background-image: url("../Images/d.jpg");
+        background-position-x: 50%;
+        background-position-y: 45%;
+        border-radius: 1000%;
+        height: 100px;
+        width: 100px;
+        line-height: 100px;
+        float: left;
+    
+    }
+    
+    .Right_Menu{
+    width: 75%;
+    height: 100px;
+    float: right;
+    
+    }
+    
+    .Right_Menu ul{
+       margin-left:250px;
+    
+    }
+    
+    .Right_Menu ul li{
+        font-family: 'monteserrat';
+        display: inline-block;
+        list-style:none ;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 80px;
+         margin-left: 25px;
+         text-transform: uppercase;
+         position: relative;
+    }
+    .Right_Menu ul li a{
+        display: block;
+        font-size: 16px;
+        padding: 10px 8px;
+        color: white;
+    }
+
+    .Right_Menu ul li:hover ul{
+        display: block;
+    }
+    
+    .Right_Menu ul li ul{
+        margin: 0px;
+        padding: 0px;
+        width: 200px;
+        display: none;
+        position: absolute;
+        background-color: rgba(0, 0,0, 0.5);
+        border-radius: 4px;
+    }
+
+    .Right_Menu ul li ul li a{
+        font-size: 14px;
+        text-align: center;
+        color:white;
+       padding: 4px 4px;
+    }
+
+    .Right_Menu ul li ul li a:hover{
+        background-color: rgba(0, 0,0, 0.5);
+    }
+
+
+    .Right_Menu ul li ul li ul{
+        margin: 0px;
+        padding: 0px;
+        width: 100px;
+        display: none;
+        position: absolute;
+        background-color: rgba(0, 0,0, 0.5);
+        border-radius: 4px;
+    } 
+
+    .Right_Menu ul li ul li ul li {
+        font-size: 16px;
+        text-align: center;
+        color:white;
+       padding: 4px 4px;
+    }
+
+
+    #firstlist{
+        color: orange;
+    }
+    
+    .Right_Menu ul li a:hover{
+        background-color: rgba(0, 0,0, 0.5);
+        color:orange;
+    }
+
+
+    .Text{
+        background-size: cover;
+        padding:5px;
+        width: 100%;
+        margin-top: 80px;
+        text-transform: uppercase;
+        text-align: center;
+        color: rgb(255, 255, 255);
+    }
+    
+.icon{  
+ background-size: cover;
+width:45px;
+padding:36px;
+border-radius: 50%;
+}
+    .Text h2{
+        background-size: cover;
+        padding: 0px;
+        text-align: center;
+        width:100%;
+    }
+
+    .Text h3{
+        background-size: cover;
+        font-size: 55px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+        font-weight: bold;
+        margin-top: 5px; 
+    }
+    
+    .Text h4{
+        background-size: cover;
+    font-size: 13px;
+    }
+
+    .footer{
+        background-image: url(../Images/farm_wall_02.jpeg);
+        width: 100%;
+        height: 70px;
+        background-size: cover;
+
+    }
+
+.footer ul{
+    margin-left: 10px;
+    text-align: center;
+}
+
+    .footer ul li {
+        text-transform: uppercase;
+        display: inline-block;
+        list-style: none;
+        font-size: 14px;
+        color:white;
+        padding: 10px;
+       
+    }
+
+.footer ul h5{
+    color: rgb(243, 243, 243);
+    font-size: 16px;
+}
+    
+.footer ul li a:hover{
+    color: orange;
+}
+    #Button_01{
+        
+        background-color: rgb(26, 177, 247);
+        border: 3px solid white;
+        font-size: 12px;
+        font-family: 'Monteserrat',sans-serif;
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 35px;
+        width: 120px;
+        margin-top: 25px;
+    }
+    
+    #Button_02{
+        color:white;
+    background-color: transparent;
+    border: 3px solid white;
+    font-family: 'Monteserrat',sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 35px;
+    width: 120px;
+    margin-top: 20px;
+    
+    }

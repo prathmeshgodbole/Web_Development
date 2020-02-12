@@ -1,0 +1,278 @@
+*{
+    
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        list-style: none;
+        box-sizing: border-box;
+        
+}
+
+body{
+   
+    font-family:monteserrat;
+}
+
+.container{
+    margin-top: 0;
+    padding: .8em 1.2em;
+}
+
+header {
+    background-color: lightcoral;
+    display:flex;
+    justify-content: space-between; 
+ }
+
+ .logo{
+     
+     width: 130px;
+     
+ }
+
+ label.logo {
+    color: white;
+    font-size: 30px;
+    line-height: 70px;
+    padding: 0 100px;
+    font-weight: bolder;
+}
+
+.Main_logo {
+    
+    width: 35%;
+    margin: 2em auto 2em 35%;
+}
+
+
+section h1 a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 510px;
+    font-style: initial;
+    position: relative;
+    z-index: 3;
+    color: #f0ffe7;
+    display: inline-block;
+    border-radius: 10px;
+    
+   
+}
+
+.subhead {
+    margin-left: 340px;
+    font-size: 1.1em;
+    color:#082dff;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ nav {
+    background:#082dff;
+    height: 80px;
+    width: 100%;
+    
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul a {
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 13px;
+    text-transform: uppercase;
+}
+
+a.active,a:hover {
+    background: #1b9bff;
+    transition: .5s;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+ #check {
+     display: none;
+ }
+
+ @media (max-width: 950px) {
+    label.logo {
+       font-size: 30px;
+       padding-left: 40px;
+    }
+
+nav ul li a {
+   font-size: 16px;
+
+   }
+   h1{
+   
+    margin-left: 370px;
+    
+    position: relative;
+    z-index: 3;
+}
+
+.subhead {
+    margin-left: 240px;
+    font-size: 1.1em;
+}
+}
+
+@media (max-width: 900px) {
+    label.logo {
+       font-size: 25px;
+       padding-left: 35px;
+    }
+
+nav ul li a {
+   font-size: 14px;
+
+   }
+   h1{
+   
+    margin-left: 330px;
+    
+    position: relative;
+    z-index: 3;
+}
+
+.subhead {
+    margin-left: 210px;
+    font-size: 1.1em;
+}
+}
+
+@media (max-width: 850px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background: #2c3e50;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+       display: block;
+       margin: 50px 0;
+       line-height: 30px;
+    }
+    nav ul li a{
+       font-size: 14px;
+    }
+    a:hover,a.active{
+        background: none;
+        color: #0082e6;
+    }
+    #check:checked ~ ul {
+        left:0;
+    }
+    h1{
+   
+        margin-left: 260px;
+        
+        position: relative;
+        z-index: 3;
+    }
+    
+    .subhead {
+        margin-left: 150px;
+        font-size: 1.1em;
+    }
+}
+
+@media (max-width: 500px) {
+   label.logo {
+      font-size: 20px;
+      padding-left: 32px;
+   }
+   h1{
+   
+    margin-left: 70px;
+    position: relative;
+    z-index: 3;
+}
+
+.subhead {
+    margin-left: 40px;
+    font-size: 1.1em;
+}
+}
+
+
+.container_2{
+    width:100%;
+    background: #bbacac;
+    margin-top: 0;
+   
+}
+
+ul li{
+    padding: 15px;
+ margin-left: 500px;
+    
+}
+ li h2{ 
+     margin-bottom: 5px;
+    margin-left: 60px;
+}
+li h3{ 
+    margin-bottom: 5px;
+    margin-left: 60px;
+}
+ li h4{ 
+    
+    
+     margin-bottom: 5px;
+     margin-left: 60px;
+ }
+ li h5{ 
+   
+     margin-bottom: 5px;
+    margin-left: 60px;
+}
+
+.container_3 {
+    width:100%;
+    background: rgb(59, 66, 71);
+    color:#fff;
+    font-weight: bolder;
+    padding-left: 20px;
+}
+
+.container_3 p{
+    margin-left: 480px;
+}
+
+
+.container ul.footer-links li a{
+    font-size: 16px;
+    font-weight: bolder;
+    margin: 0 auto;
+    display: contents; 
+}
