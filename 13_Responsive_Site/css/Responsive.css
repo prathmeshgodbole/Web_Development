@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.bgimg{ 
+background-image: url("../images/food.jpeg");
+background-image: cover;
+}
+
+
+/*Header paet */
+.header{
+   
+}
+
+.img-fluid{
+   
+    max-width: 100%; 
+     height: auto;
+ 
+  }
+
+  .navbar{
+    width: 100%;
+    height: 70px;
+    background-color: gray;
+  }
+  
+  .Leftnav{
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 160px;
+    float: left;
+    height:60px ;
+    background-image: url("../images/FoodLoverLogo.png");
+}
+
+
+  .Rightnav{
+      width: (100%-30%);
+  }
+
+  .Rightnav ul{
+    
+       text-align: right;
+   }
+
+  .Rightnav ul li{
+    
+      margin-top: 40px;
+       display: inline-block;
+       padding-right: 45px;
+   }
+
+  .Rightnav ul li a{
+       color: white;
+   }
+
+
+
+   /* Middle part*/
+
+   .container{
+       width: 100%;
+       margin-top: 30px;
+   }
+
+   .row{
+       margin-top: 20px;
+   }
+   
+   .col{
+       column-span: all;
+       margin-top: 20px;
+   }
+
+   .col p {
+       text-align: left;
+       font-size: 15px;
+   }
+
+   
+
+   .col .img-fluid{
+    column-span: all;
+    margin-top: 20px;
+    max-width: 100%; 
+     height: auto;
+    background: #aaa;
+  }
+
+  .col .Flex_Column{
+    column-span: all;
+       width: 250px;
+       height: 250px;
+       margin: 10px;
+  }
+
+  .col .Flex_Column ul{
+      text-align: center;
+      width: 250px;
+     
+     background-color:rgba(0,0,0,0.5) ;
+  }
+
+  .col .Flex_Column ul li {
+      padding: 5px;
+      color: white;
+  }
+
+  .col .Flex_Column ul li a{
+      color: white;
+  }

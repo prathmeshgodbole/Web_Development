@@ -1,0 +1,16 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+.section-3 {
+    margin-top: 5%;
+}
+
+.section-3 i {
+    color: #00E8E8;
+}
+
+.section-3 p {
+    color: rgba(0, 0, 0, 0.59);
+}

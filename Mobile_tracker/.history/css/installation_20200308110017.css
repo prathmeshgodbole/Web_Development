@@ -1,0 +1,25 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+.section-3 {
+    height: 80vh;
+    border-style: dashed;
+    border-color: black;
+    margin-top: 5%;
+}
+
+.container {
+    padding: 5px 5px;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+p {
+    font-style: oblique;
+    font-size: large;
+}

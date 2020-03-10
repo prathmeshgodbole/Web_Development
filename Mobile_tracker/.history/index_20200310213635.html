@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="//p18.zdassets.com/hc/theming_assets/2246753/360000275214/style.css?digest=360115868933" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/highlight.js/9.10.0/styles/github.min.css" />
+    <link rel="stylesheet" href="./css/Globalstyle.css">
+    <style>
+        .carousel-inner img {
+            width: 100%;
+            height: 70vh;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <div class="header-container">
+
+
+
+
+
+        <div class="header-top dark">
+            <div class="container">
+                <div class="row">
+                    <div class="d-none d-sm-block col-sm-3 col-md-3">
+
+
+                        <div class="header-top-first clearfix">
+                            <ul class="social-links circle small clearfix">
+                                <li class="twitter"><a target="_blank" rel="noopener" href="//twitter.com"><i
+                                        class="fa fa-twitter"></i></a></li>
+                                <li class="youtube"><a target="_blank" rel="noopener" href="//www.youtube.com"><i
+                                        class="fa fa-youtube"></i></a></li>
+                                <li class="facebook"><a target="_blank" rel="noopener" href="//www.facebook.com"><i
+                                        class="fa fa-facebook"></i></a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="col-xs-12 col-sm-9 col-md-9">
+
+
+                        <div id="header-top-second" class="clearfix">
+
+
+                            <div class="header-top-dropdown text-right">
+                                <div class="btn-group">
+                                    <a href="Register.html" class="btn btn-default btn-sm">
+                                        <i class="fa fa-user-plus pr-10"></i> Register</a>
+                                </div>
+                                <div class="btn-group">
+                                    <a href="Login.html" class="btn btn-default btn-sm"><i
+                                        class="fa fa-sign-in pr-10"></i>
+                                    Login</a>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- header nav end -->
+
+
+        <!--   NavbarBootstrap -->
+
+
+        <nav class="navbar navbar-expand-md navbar-light bg-light ">
+            <div class="container">
+                <a class="navbar-brand " href="#">Trackji</a>
+                <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#nav_collapse  " aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="collapse navbar-collapse " id="nav_collapse">
+                    <!-- <div class="mr-auto"></div> -->
+                    <ul class="navbar-nav ml-auto  mt-2 mt-lg-0">
+
+                        <li class="nav-item active mr-4">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item mr-4">
+                            <a class="nav-link " href="Features.html">Features</a>
+                        </li>
+
+                        <li class="nav-item mr-4">
+                            <a class="nav-link" href="FAQ-Help.html">FAQ/Help</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link active" href="About.html">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="demo" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+                <li data-target="#demo" data-slide-to="3"></li>
+            </ul>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/best-parental-control-app.jpg" alt="Parental control" width="1100" height="500" />
+                    <div class="carousel-caption">
+                        <h3>Parental control</h3>
+                        <p>Protect your child using Trackji from unwanted activities on the phone.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/backup.jpg" alt="Data Backup" width="1100" height="500" />
+                    <div class="carousel-caption">
+                        <h3>Data Backup</h3>
+                        <p>Get tp to date real time data, backup of all the stored data on our highly secured server.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/antytheft.jpg" alt="Anti Theft" width="1100" height="500" />
+                    <div class="carousel-caption">
+                        <h3>Anti Theft</h3>
+                        <p>Get the instant SIM change notification and new user information using Trackji admin panel.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/laptop-3174729_1920.jpg" alt="Quick Support" width="1100" height="500" />
+                    <div class="carousel-caption">
+                        <h3>Quick Support</h3>
+                        <p>Subscribers can get their queries answered via emails and calls.</p>
+                    </div>
+                </div>
+
+            </div>
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+        <br>
+
+        <div class="section-1 bg-primary">
+            <div class="container-middle">
+                <div class="row">
+                    <div class="col-12 text-center text-white mt-2">
+                        <h3>Why Trackji ?</h3>
+                        <div class="seperator">
+                        </div>
+                        <p>All in one and one touch premium mobile monitoring with easy to use features.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <section id="many">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12" style="margin-top: 12;">
+                        <h3 class=" large text-center mt-3">Free solution with<strong> many features</strong></h3>
+                        <div class="seperator">
+                            <hr>
+                        </div>
+                        <!-- <hr /> -->
+                        <h5 class=" large text-center mr-4">
+                            USE ALL THE POWER OF A TRACKING APPLI CATION FOR<br> ANDROID SMARTPHONE
+                        </h5>
+                    </div>
+                    <div class="main col-md-12">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-6">
+                                <div class="ph-20 feature-box text-center">
+                                    <!-- <span style="background-color:#09afdf;" class="icon default-bg circle">
+                      <i class="fa fa-envelope"></i>
+                      </span> -->
+                                    <span style="background-color: #09afdf; display: inline-block;" class="icon default-bg circle"><i class="fa fa-envelope"></i></span>
+                                    <h3>Text Messages</h3>
+                                    <hr>
+                                    <div class="seperator clearfix">
+                                    </div>
+                                    <p class="text-muted">Track Text Messages sent and <br>received.</p>
+                                    <a href="">Read More
+                          <i class="pl-2 fa fa-angle-double-right"></i>
+                          </a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-sm-6">
+                                <div class="ph-20 feature-box text-center">
+                                    <span style="background-color: #e7505a;" class="icon dark-bg circle">
+                            <i class="fa fa-phone"></i>
+                          </span>
+                                    <h3>Calls</h3>
+                                    <hr>
+                                    <p class="text-muted">Track and recording incoming,<br>outgoing missed calls.</p>
+                                    <a href="">Read More
+                            <i class="pl-2 fa fa-angle-double-right"></i>
+                          </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <div class="ph-20 feature-box text-center">
+                                    <!-- <span style="background-color:#09afdf;" class="icon default-bg circle">
+                                              <i class="fa fa-envelope"></i>
+                                              </span> -->
+                                    <span style="background-color: #8E44AD; display: inline-block;" class="icon default-bg circle"><i
+                                class="fa fa-map-marker"></i></span>
+                                    <h3>GPS Locations</h3>
+                                    <hr>
+                                    <p class="text-muted">Track locations.<br> Retrieve the location of your children or employees online.</p>
+                                    <a href="">Read More
+                                  <i class="pl-2 fa fa-angle-double-right"></i>
+                                </a>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="clearfix visible-md">
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <div class="ph-20 feature-box text-center">
+                                    <span style="background-color: #1e9765; display: inline-block;" class="icon dark-bg circle">
+                                          
+                                             <i class="fa fa-picture-o" aria-hidden="true"></i></i>
+                                            </span>
+                                    <h3>Photo Images</h3>
+                                    <hr>
+                                    <div class="seperator clearfix">
+                                    </div>
+                                    <p class="text-muted">Track all pictures and images<br> taken and received. Recover <br>even deleted photos and images.</p>
+                                    <a href="">Read More
+                                              <i class="pl-2 fa fa-angle-double-right"></i>
+                                            </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <div class="ph-20 feature-box text-center">
+                                    <span style="background-color: #217ebd; display: inline-block;" class="icon default-bg circle">
+                                          
+                                                <i class=" fa fa-gamepad" aria-hidden="true"></i></i>
+                                              </span>
+                                    <h3>Apps, App Blocking</h3>
+                                    <hr>
+                                    <div class="seperator clearfix">
+                                    </div>
+                                    <p class="text-muted"> Particular app installation on the device.<br>
+                                    </p>
+                                    <a href="" ml>Read More
+                                                <!-- <i class="pl-2 fa fa-gamepad"></i> -->
+                                              </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <div class="ph-20 feature-box text-center">
+                                    <span style="background-color: #F4D03F; display: inline-block;" class="icon dark-bg circle">
+                                          
+                                                <i class="fa fa-book" aria-hidden="true"></i></i>
+                                              </span>
+                                    <h3>Contacts</h3>
+                                    <hr>
+                                    <div class="seperator clearfix">
+                                    </div>
+                                    <p class="text-muted">Receive notification of recently and saved contacts.</p>
+                                    <a href="">Read More
+                                                <!-- <i class="pl-2 fa fa-book"></i> -->
+                                              </a>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+
+
+
+                        <p class="text-center">
+                            <a href="Features.html" button class="btn btn-animated btn-sm" data-toggle="modal" data-target="" style="color: #fff;background-color: #f0ad4e; border-color:#eea236;">
+                                      And much more...
+                                      <i class="fa fa-search-plus"></i>
+                                    <!-- </button> -->
+                                    </a>
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+    </div>
+    </div>
+
+    </section>
+    <section id="register">
+        <div class="section light-gray-bg text-center footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12" style="margin-top: 12px;">
+                        <h4 class=" large text-muted"> How does Mobile Tracker Free work?</h4>
+                        <hr>
+                        <div class="seperator">
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-4" style="margin-bottom: 16px;">
+                                <span class="icon large default mycircle bg-circle">
+                    <a href="Register.html" aria-label="register" class="text-white">
+                      <i class="fa fa-user-plus"></i>
+                      </a>
+                      </span>
+                                <br>
+                                <h4 style="margin-top: 8px;">1)Create an account</h4>
+                                <span> Fill the details and create an account:
+                        New subscribers can fill the simple form and create new account.</span>
+                            </div>
+                            <div class="col-sm-4" style="margin-bottom: 16px;">
+                                <span class="icon large default mycircle bg-circle">
+                            <a href="FAQ-Help.html" aria-label="help" class="text-white">
+                              <i class="fa fa-cog"></i>
+                            </a>
+                          </span>
+                                <br>
+                                <h4 style="margin-top: 8px;">2) Download and Install</h4>
+                                <span> Once registered, download the tracker application on then targeted device.
+                            <!-- <a href="https://www.youtube.com/watch?v=V0WxmOakqrg" target="_blank" rel="noopener">explanation video.</a> -->
+                          </span>
+                            </div>
+                            <div class="col-sm-4" style="margin-bottom: 16px;">
+                                <span class="icon large default mycircle bg-circle">
+                            <a href="Login.html" aria-label="login" class="text-white" >
+                              <i class="fa fa-eye"></i>
+                            </a>
+                          </span>
+                                <br>
+                                <h4 style="margin-top: 8px;">3) Start Tracking</h4>
+                                <span>Final step, login with the admin panel and start tracking the device.
+                           
+                          </span>
+                            </div>
+                            <br>
+
+
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+                <p class="text-center mt-3 ">
+                    <a href="FAQ-Help.html" class="btn btn-animated btn-success" data-toggle="modal" data-target="" style="color:#fff;">Install
+                  application free
+                  <i class="fa fa-cog"></i>
+                </a>
+                </p>
+            </div>
+
+
+    </section>
+    <footer id="footer" class="clearfix">
+        <div class="footer">
+            <div class="container">
+                <div class="footer-inner">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="footer-content">
+                                <h2 class="title">About</h2>
+                                <div class="seperator-2">
+                                </div>
+                                <hr>
+                                <p> Mobile Tracker Free is a mobile phone monitoring software that allows you to know in details what is happening on an Android mobile phone. This application is simple to use, includes a whole range of features and all of
+                                    this for free.</p>
+                                <a href="" button class="btn btn-sm btn-default-transperent mybtn btn-outline-primary text-dark btn-animated" data-toggle="modal" data-target="">Contact Us
+               <i class="fa fa-envelope"></i>
+              
+               </a>
+                                <ul class="social-links circle small clearfix d-block d-sm-none">
+                                    <li class="twitter">
+                                        <a target="_blank" rel="noopener" aria-label="twitter" href="https://twitter.com/MobileTrackeFree">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li class="youtube">
+                                        <a target="_blank" rel="noopener" aria-label="youtube" href="https://youtube.com/channel/UCwZF6eRxSc6L1XWuSalgDBQ">
+                                            <i class="fa fa-youtube-play"></i>
+                                        </a>
+                                    </li>
+                                    <li class="facebook">
+                                        <a target="_blank" rel="noopener" aria-label="facebook" href="https://www.facebook.com/MobileTrackeFree">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="footer-content">
+                                <h2 class="title ml-3">Useful links</h2>
+                                <div class="seperator">
+                                </div>
+                                <hr>
+                                <nav class="mb-20">
+                                    <ul class="nav-flex-column list-style-icons">
+                                        <!-- <li class="nav-item"> -->
+                                        <a class="nav-link text-dark  nav utils" href="">
+                                            <i class=" text-muted fa fa-chevron-circle-right"></i> SMS monitoring
+                                        </a>
+                                        </li>
+                                        <!-- <li class="nav-item"> -->
+                                        <a class="nav-link  text-dark nav utils " href="//www.facebook.com">
+                                            <i class="text-muted
+                         fa fa-chevron-circle-right"></i> Facebook Tracking
+                                        </a>
+                                        </li>
+
+
+
+                                        <a class="nav-link text-dark nav utils " href="FAQ-Help.html">
+                                            <i class="  text-muted fa fa-chevron-circle-right"></i> Installation Guide
+                                        </a>
+                                        </li>
+                                        <a class="nav-link text-dark nav utils " href="https://mobile-tracker-free.com/hc/en-us">
+                                            <i class="  text-muted fa fa-chevron-circle-right"></i> FAQ/Help
+                                        </a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="footer-content">
+                                <h2 class="title ml-3">Legal info</h2>
+                                <div class="seperator-2">
+                                </div>
+                                <hr>
+                                <nav class="mb-20">
+                                    <ul class="nav-flex-column list-style-icons">
+                                        <a class="nav-link text-dark nav utils " href="https://mobile-tracker-free.com/terms/">
+                                            <i class="  text-muted fa fa-chevron-circle-right"></i> Terms Of Use
+                                        </a>
+                                        </li>
+                                        <a class="nav-link text-dark nav utils " href="https://mobile-tracker-free.com/privacy-policy/">
+                                            <i class="  text-muted fa fa-chevron-circle-right"></i> Privacy Policy
+                                        </a>
+                                        </li>
+                                        <a class="nav-link text-dark nav utils " href="https://mobile-tracker-free.com/refund-policy/">
+                                            <i class="  text-muted fa fa-chevron-circle-right"></i> Refund Policy
+                                        </a>
+                                        </li>
+                                        <a class="nav-link text-dark nav utils " href="https://mobile-tracker-free.com/cookies-policy/">
+                                            <i class="  text-muted fa fa-chevron-circle-right"></i> Cookie Policy
+                                        </a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="subfooter dark-bg">
+            <div class="container">
+                <div class="subfooter-inner">
+                    <div class="row">
+                        <div class="col-12">
+                            <span>
+                                      Disclaimers for TRACKJI
+                                      <br>
+                                      All the information on this website - https://trackji.com - is published in good faith and for general
+                                      information purpose only. TRACKJI does not make any warranties about the completeness,
+                                      reliability and accuracy of this information. Any action you take upon the information you find on this
+                                      website (TRACKJI), is strictly at your own risk. TRACKJI will not be liable for any losses and/or
+                                      damages in connection with the use of our website.
+                                      From our website, you can visit other websites by following hyperlinks to such external sites. While
+                                      we strive to provide only quality links to useful and ethical websites, we have no control over the
+                                      content and nature of these sites. These links to other websites do not imply a recommendation for
+                                      all the content found on these sites. Site owners and content may change without notice and may
+                                      occur before we have the opportunity to remove a link which may have gone &#39;bad&#39;.
+                                      Please be also aware that when you leave our website, other sites may have different privacy
+                                      policies and terms which are beyond our control. Please be sure to check the Privacy Policies of
+                                      these sites as well as their &quot;Terms of Service&quot; before engaging in any business or uploading any
+                                      information.
+                                      <br>
+                                      <br>
+                                      Consent
+                                      <br>
+                                      By using our website, you hereby consent to our disclaimer and agree to its terms.
+                                      <br>
+                                      <br>
+                                      Update
+                                      <br>
+                                      Should we update, amend or make any changes to this document, those changes will be
+                                      prominently posted here.
+
+                                        </span>
+                            <div class="seperator light">
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-12">
+                                    <p class="text-center"> Copyright © 2020 Trackji.com
+                                        <a href="">
+                                               All rights reserved.
+                                              </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
+</body>
+
+</html>

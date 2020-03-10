@@ -1,0 +1,11 @@
+.Middle {
+    background-image: url('../Mobile_tracker/Background.jpeg');
+    width: 100%;
+    height: 80vh;
+}
+
+.row {
+    margin-left: 20px;
+    text-align: center;
+    background-color: aqua;
+}

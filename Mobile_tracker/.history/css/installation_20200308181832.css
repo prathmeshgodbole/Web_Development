@@ -1,0 +1,37 @@
+*body {
+    margin: 0%;
+    padding: 0%;
+}
+
+.section {
+    top: 0px;
+    background-color: darkslategray;
+    height: 60vh;
+}
+
+.section h1 {
+    color: aliceblue;
+    text-shadow: black 5px 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+ul {
+    margin-top: 40px;
+}
+
+ul li a {
+    color: azure;
+    font-weight: bold;
+    font-size: larger;
+    margin-top: 30px;
+}
+
+ul li a p {
+    color: bisque;
+    margin-top: 10px;
+}
+
+.footer {
+    text-align: center;
+}

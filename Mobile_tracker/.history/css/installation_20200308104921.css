@@ -1,0 +1,12 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+.section-3 {
+    margin-top: 5%;
+}
+
+.section-3 p {
+    background-color: red;
+}

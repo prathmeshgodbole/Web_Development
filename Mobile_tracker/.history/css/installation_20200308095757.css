@@ -1,0 +1,22 @@
+.Middle {
+    text-align: center;
+    background-color: blue;
+}
+
+.row {
+    margin-left: 20px;
+    text-align: center;
+    background-color: black;
+}
+
+h5 {
+    text-align: center;
+    margin: 50px;
+    padding: 60px;
+}
+
+p {
+    text-align: center;
+    font-size: medium;
+    padding-top: 60px;
+}

@@ -1,0 +1,20 @@
+*body {
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar {
+    background-color: rgb(196, 199, 233);
+}
+
+ul li a {
+    color: aliceblue;
+}
+
+.dropdown-menu a {
+    color: blueviolet;
+}
+
+li a .nav-link {
+    color: azure;
+}

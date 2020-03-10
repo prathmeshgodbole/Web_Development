@@ -1,0 +1,16 @@
+*body {
+    margin: 0%;
+    padding: 0%;
+}
+
+.section-header h1 {
+    text-align: center;
+}
+
+ul {
+    margin-top: 30px;
+}
+
+ul li a {
+    font-size: medium;
+}
