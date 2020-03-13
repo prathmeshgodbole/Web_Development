@@ -13,73 +13,128 @@
 
 </head>
 
-
-<!--Navbar-->
-
 <body>
+
+
+    <div class="header-top dark">
+        <div class="container">
+            <div class="row">
+                <div class="d-none d-sm-block col-sm-3 col-md-3">
+
+
+                    <div class="header-top-first clearfix">
+                        <ul class="social-links circle small clearfix">
+                            <li class="twitter"><a target="_blank" rel="noopener" href="//twitter.com"><i
+                                            class="fa fa-twitter"></i></a></li>
+                            <li class="youtube"><a target="_blank" rel="noopener" href="//www.youtube.com"><i
+                                            class="fa fa-youtube"></i></a></li>
+                            <li class="facebook"><a target="_blank" rel="noopener" href="//www.facebook.com"><i
+                                            class="fa fa-facebook"></i></a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="col-xs-12 col-sm-9 col-md-9">
+
+
+                    <div id="header-top-second" class="clearfix">
+
+
+                        <div class="header-top-dropdown text-right">
+                            <div class="btn-group">
+                                <a href="Register.html" class="btn btn-default btn-sm">
+                                    <i class="fa fa-user-plus pr-10"></i> Register</a>
+                            </div>
+                            <div class="btn-group">
+                                <a href="Login.html" class="btn btn-default btn-sm"><i
+                                            class="fa fa-sign-in pr-10"></i>
+                                        Login</a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--   NavbarBootstrap -->
+
+
     <nav class="navbar navbar-expand-md navbar-light bg-light ">
         <div class="container">
-            <a class="navbar-brand" href="#">Trackji</a>
+            <a class="navbar-brand " href="index.html">Trackji</a>
             <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#nav_collapse  " aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse " id="nav_collapse">
                 <!-- <div class="mr-auto"></div> -->
                 <ul class="navbar-nav ml-auto  mt-2 mt-lg-0">
-                    <li class="nav-item active mr-4">
-                        <a class="nav-link " href="index.html"><i class="fa fa-home pr-2"></i>Home <span class="sr-only">(current)</span></a>
+
+                    <li class="nav-item  mr-4">
+                        <a class="nav-link" href="index.html">Home </a>
                     </li>
-
-
                     <li class="nav-item mr-4">
-                        <a class="nav-link " href="#"><i class="fa fa-check"></i>Submit_Request</a>
+                        <a class="nav-link" href="Features.html">Features</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="Login.html"><i class="fa fa-sign-in"></i>Login</a>
+                    <li class="nav-item mr-4 active">
+                        <a class="nav-link" href="Installation.html">Installation Guide</a>
+                    </li>
+                    <li class="nav-item mr-4">
+                        <a class="nav-link" href="FAQ.html">FAQ/Help</a>
                     </li>
 
+                    <li class="nav-item">
+                        <a class="nav-link " href="About.html">About</a>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
 
 
+    <!-- NavbarBootstrap end -->
+
+    <!-- Breadcrum -->
     <div class="breadcrumb-container bg-dark">
         <div class="container">
-            <ol class="breadcrumb ">
-                <li class="breadcrumb-item ">
-                    <i class="fa fa-home pr-2"></i><a href="index.html"> Home </a> </li>
-                <li class="breadcrumb-item ">
-                    <a href="FAQ-Help.html"> FAQ_Help </a> </li>
-                <li class="breadcrumb-item ">
-                    <a href="FAQ.html"> FAQ </a> </li>
-                <li class="breadcrumb-item active">Installation</li>
-
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <i class="fa fa-home pr-2"></i>
+                    <a href="index.html">
+                        Home </a>
+                </li>
+                <li class="breadcrumb-item active">
+                    Installation Guide </li>
             </ol>
         </div>
     </div>
 
 
+
+
     <h1 class="section-title text-center mt-5">Installation</h1>
     <div class="separator-2"></div>
-    <ul class="article-list ml-5">
+    <ol type="1">
 
-        <li class="article-promoted">
+        <li class="article-promoted mx-5 my-2">
             <a href="">How to install Trackeji?</a>
             <p>Please follow our installtion guide here. (hyperlink of the guide to be insert here)</p>
         </li>
 
-        <li class="article-promoted">
+        <li class="article-promoted mx-5 my-2">
             <a href="">How do I uninstall Trackji and all my data ?</a>
             <p>From the "My Account" menu you can uninstall Trackji and erase your all data.</p>
         </li>
 
-    </ul>
+    </ol>
 
     <!--/.container-->
     <footer class="footer container-fluid dark-bg">
         <div class="container-inner">
-            <p class="copyright">&copy; <a href=>Trackji</a></p>
+            <p class="copyright">&copy; <a href="index.html">Trackji</a></p>
         </div>
     </footer>
 
