@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Form_Practice</title>
+</head>
+
+
+<body>
+    <hr>
+    <h4>Personal_Information</h4>
+
+    <hr>
+    <lable>Name : </lable>
+    <input type="text" placeholder="Name" required>
+
+    <hr>
+    <lable>Age : </lable>
+    <input type="number" placeholder="Age" min="18" max="100" value="18" step="2" required><br>
+    <input type="range">
+
+    <hr>
+    <lable>D.O.B : </lable>
+    <input type="date" placeholder="D.O.B" required>
+
+    <hr>
+    <lable>Password : </lable>
+    <input type="password" placeholder="Enter_Password" required>
+
+    <hr>
+    <label>E-mail :</label>
+    <input type="email" placeholder="abc@gmail.com" required>
+
+    <hr>
+    <lable>Select Gender :</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <lable for="male">Male</lable>
+        <input type="radio" id="female" name="gender" value="female">
+        <lable for="female">Female</lable>
+        <input type="radio" id="other" name="gender" value="other">
+        <lable for="other">Other</lable>
+
+        <hr>
+        <label>Select Files :</label>
+        <input type="file" multiple="true">
+
+        <hr>
+        <h4>Input Type SELECT Dropdown</h4>
+        <lable>Select your city :</lable>
+        <select>
+            <option>Kolhapur</option>
+            <option>Sangli</option>
+            <option>Pune</option>
+            <option>Mumbai</option>
+        </select>
+
+        <hr>
+        <h4>Input type DETAILS</h4>
+        <label for="cities">Select Your City</label>
+        <input list="cities" name="browser" id="browser">
+        <datalist id="cities">
+            <option value="Kolhapur">
+                <option value="Sangli">
+                    <option value="Pune">
+                        <option value="Mumbai">
+                            <option value="Chennai"></option>
+                        </option>
+                    </option>
+                </option>
+
+
+
+        <hr>
+        <input type="checkbox" id="checkbox">
+        <lable for="checkbox">I agree terms & Services. </lable>
+
+        <hr>
+        <button type="submit">Submit</button>
+
+</body>
+
+</html>
