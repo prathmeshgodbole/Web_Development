@@ -15,7 +15,7 @@ console.log(myCar1);
 //Converting integer into string
 var myCar2 = { name: "MG", speed: 150, brand: "Hector" };
 console.log("myCar2 Name is : " + myCar2.name);
-console.log("Integer converted in to String : " +
+console.log(""
     myCar2.speed.toString());
 
 
